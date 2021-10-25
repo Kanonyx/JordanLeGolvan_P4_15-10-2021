@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -174,7 +176,7 @@ a:hover {
 }
 #bloc-1-hero h1 {
   font-size: 45px;
-  font-family: lobster;
+  font-family: "lobster";
 }
 .navbar {
   margin-bottom: 0;
@@ -718,4 +720,10 @@ h4 {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("/fonts/Lobster-Regular.woff2") format("woff2"),
+        url("/fonts/Lobster-Regular.woff") format("woff");
 }
