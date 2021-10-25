@@ -627,32 +627,29 @@ a[data-lightbox]:hover img {
   opacity: 0.4;
 }
 
-.partners{
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-    align-items: center;
-    
+.partners {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  align-items: center;
 }
 
 .partlinks {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    gap: 1rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .partlinks a {
-    display: flex;
-    color: white;
-    text-align: center;
-    
+  display: flex;
+  color: white;
+  text-align: center;
 }
 .next-lightbox {
   padding: 6px 8px 1px 13px;
@@ -775,7 +772,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin: auto;
+  margin: auto;
 }
 
 .portfolio-row {
@@ -1077,4 +1074,49 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+      format("embedded-opentype"),
+    url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+    url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+    url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+    url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 18px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1rem
+
+}
+.fa-twitter:before {
+  content: "\f099";
+  font-size: 38px;
+  
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+  font-size: 38px
+}
+
+.fa-dribbble:before {
+  content: "\f17d";
+  font-size: 38px
+}
+.fa-instagram:before {
+  content: "\f16d";
+  font-size: 38px
+
 }
