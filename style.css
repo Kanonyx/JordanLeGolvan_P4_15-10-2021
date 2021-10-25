@@ -357,7 +357,7 @@ h5,
 h6,
 label,
 p {
-  font-family: roboto;
+  font-family: "Helvetica";
   font-weight: 400;
   color: #000 !important;
 }
@@ -369,7 +369,7 @@ p {
 }
 p {
   font-size: 15px;
-  font-family: roboto;
+  font-family: "Helvetica";
 }
 .tight-width-whitespace {
   max-width: 600px;
@@ -377,7 +377,7 @@ p {
 }
 .h1 {
   font-size: 20px;
-  font-family: "Open Sans";
+  font-family: "Helvetica";
 }
 .cta-hero {
   margin-top: 22px;
