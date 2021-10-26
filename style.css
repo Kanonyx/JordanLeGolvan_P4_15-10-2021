@@ -100,7 +100,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -333,15 +333,14 @@ a[data-lightbox]:hover img {
 .partlinks {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
   gap: 1rem;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 .partlinks a {
+  color: rgb(255, 255, 255);
   display: flex;
-  color: #fff;
   text-align: center;
 }
 .snapshot-lb .lightbox-caption {
@@ -428,7 +427,7 @@ h4 {
   margin-top: 50px;
 }
 .black-background {
-  background-color: #c06a4f;
+  background-image: linear-gradient(120deg, rgb(250, 8, 0), rgb(255, 151, 53));;
   padding: 40px 40px 40px 40px;
 }
 .bgc-white {
@@ -438,14 +437,14 @@ h4 {
   background-color: #364577;
 }
 .bgc-atomic-tangerine {
-  background-color: #f05d30;
+  background-image: linear-gradient(120deg, rgb(255, 96, 90), rgb(255, 151, 53),rgb(255, 238, 83));;
 }
 .tc-white {
   color: #fff !important;
 }
 .btn-atomic-tangerine {
-  background: #f05d30;
-  color: #fff !important;
+  background-image: linear-gradient(120deg, rgb(255, 96, 90), rgb(255, 151, 53),rgb(255, 238, 83));;
+  color: rgb(0, 0, 0) !important;
 }
 .btn-atomic-tangerine:hover {
   background: #f03838 !important;
